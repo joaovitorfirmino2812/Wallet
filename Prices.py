@@ -1,10 +1,10 @@
 import requests as rq
-import pandas as pd 
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
+import os
 
 date =[]
-datainicial = datetime(2025, 1, 8).date()
+datainicial = datetime(2025, 1, 7).date()
 datafinal = datetime.now().date() #dia atual
 values = []
 timestamps = []
@@ -28,7 +28,15 @@ for ts in timestamps[0]:
     minutos = dt.strftime("%Y-%m-%d %H:%M")  # Formatar como HH:MM (hora:minuto)
     tempoMinuto.append(minutos)
 
-plt.plot(tempoMinuto, values[0])
+#gerando e salvando a imagem
+
+image_path = 'btc/grafico.png'
+fig, sub = plt.subplots()
+sub.plot(tempoMinuto, values[0])
 plt.xticks([tempoMinuto[0], tempoMinuto[-1]])
-plt.show()
-print(date)
+
+fig.savefig(image_path)
+
+plt.close(fig)
+
+

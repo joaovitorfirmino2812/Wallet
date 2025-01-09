@@ -15,7 +15,7 @@ header {
 #grafico {
     background-color:#36494f;
     height: 300px;
-    width: 400px;
+    width: 470px;
     margin: auto;
     
 }
@@ -85,4 +85,9 @@ button:hover {
     background-color:  #ebfaff;
     color: #263337;
     cursor: pointer;
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
