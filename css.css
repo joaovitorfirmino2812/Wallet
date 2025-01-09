@@ -1,7 +1,11 @@
+body {
+    background-color: #263337;
+ }
+
 header {
     width: 900px;
     height: 100px;
-    background-color: black;
+    background-color: ;
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 10px;
@@ -9,7 +13,7 @@ header {
 
 
 #grafico {
-    background-color: blue;
+    background-color:#36494f;
     height: 300px;
     width: 400px;
     margin: auto;
@@ -17,7 +21,7 @@ header {
 }
 
 #container {
-    background-color: brown;
+    background-color: #36494f;
     width: 800px;
     height: 400px;
     margin: 0 auto;
@@ -35,7 +39,7 @@ header {
 .valor {
     width: 300px;
     height: 40px;
-    background-color: aqua;
+    background-color: #263337;
     margin-top: 10px;
     border-radius: 5px;
 }
@@ -58,7 +62,7 @@ ul {
 }
 
 li {
-    color: white;
+    color: #ebfaff;
     font-family: Impact, sans-serif;
     list-style: none;
     padding: 5px;
@@ -66,6 +70,7 @@ li {
 }
 
 li:hover {
-    background-color: chocolate;
+    background-color:  #ebfaff;
+    color: #263337;
     cursor: pointer;
 }
