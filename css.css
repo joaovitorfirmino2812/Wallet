@@ -3,9 +3,9 @@ body {
  }
 
 header {
-    width: 900px;
+    width: 850px;
     height: 100px;
-    background-color: ;
+    background-color: #36494f;
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 10px;
@@ -62,14 +62,26 @@ ul {
 }
 
 li {
-    color: #ebfaff;
-    font-family: Impact, sans-serif;
+
     list-style: none;
     padding: 5px;
     border-radius: 5px;
 }
 
-li:hover {
+
+button {
+    border-style: none;
+    color: #ebfaff;
+    background-color: #36494f;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    list-style: none;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+button:hover {
     background-color:  #ebfaff;
     color: #263337;
     cursor: pointer;
