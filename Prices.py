@@ -16,7 +16,7 @@ while datafinal >= datainicial:
 
 for e in date:
     url = f"https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=usd&days=1&date={e}"
-    dados_json = rq.get(url, timeout=20)
+    dados_json = rq.get(url, timeout=30)
     dados = dados_json.json()
     valores = dados['prices']
     values.append([valor[1] for valor in valores ])
